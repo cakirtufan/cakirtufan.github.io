@@ -4,8 +4,6 @@ permalink: /
 author_profile: true
 ---
 
-# About Me
-
 I am a PhD-trained Applied AI Engineer and Data Scientist based in Berlin.
 
 My work is at the interface of **machine learning, scientific computing, optimisation, and analytical software development**. I focus on building Python-based tools that turn complex experimental and industrial datasets into useful models, visualizations, and decision-support workflows.
