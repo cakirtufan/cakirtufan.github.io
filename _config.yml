@@ -22,7 +22,7 @@ repository               : "cakirtufan/cakirtufan.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Cafer Tufan Cakir"
   pronouns         :
   bio              : "Applied AI Engineer and Data Scientist working at the interface of machine learning, scientific computing, optimisation, and analytical software."
