@@ -8,51 +8,86 @@ redirect_from:
 ---
 
 {% include base_path %}
+{% assign cv = site.data.cv %}
 
+{% if cv.basics.summary %}
+Summary
+======
+{{ cv.basics.summary }}
+{% endif %}
+
+{% if cv.basics.email or cv.basics.phone or cv.basics.website or cv.basics.profiles %}
+Contact
+======
+{% if cv.basics.location.city %}* {{ cv.basics.location.city }}{% if cv.basics.location.countryCode %}, {{ cv.basics.location.countryCode }}{% endif %}{% endif %}
+{% if cv.basics.email %}* [{{ cv.basics.email }}](mailto:{{ cv.basics.email }}){% endif %}
+{% if cv.basics.phone %}* {{ cv.basics.phone }}{% endif %}
+{% if cv.basics.website %}* [{{ cv.basics.website }}]({{ cv.basics.website }}){% endif %}
+{% for profile in cv.basics.profiles %}
+* {{ profile.network }}: [{{ profile.username }}]({{ profile.url }})
+{% endfor %}
+{% endif %}
+
+{% if cv.work %}
+Work Experience
+======
+{% for job in cv.work %}
+* **{{ job.position }}**, {% if job.url %}[{{ job.name }}]({{ job.url }}){% else %}{{ job.name }}{% endif %}, {{ job.startDate | date: "%b %Y" }} - {% if job.endDate and job.endDate != "" %}{{ job.endDate | date: "%b %Y" }}{% else %}Present{% endif %}
+  {% if job.summary %}* {{ job.summary }}{% endif %}
+  {% for item in job.highlights %}
+  * {{ item }}
+  {% endfor %}
+{% endfor %}
+{% endif %}
+
+{% if cv.education %}
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+{% for item in cv.education %}
+* **{{ item.studyType }}{% if item.area %}, {{ item.area }}{% endif %}**, {{ item.institution }}, {{ item.startDate | date: "%b %Y" }} - {% if item.endDate and item.endDate != "" %}{{ item.endDate | date: "%b %Y" }}{% else %}Present{% endif %}
+  {% if item.gpa %}* Grade: {{ item.gpa }}{% endif %}
+  {% for course in item.courses %}
+  * {{ course }}
+  {% endfor %}
+{% endfor %}
+{% endif %}
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+{% if cv.skills %}
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+{% for skill in cv.skills %}
+* **{{ skill.name }}:** {{ skill.keywords | join: ", " }}
+{% endfor %}
+{% endif %}
 
-Publications
+{% if cv.languages %}
+Languages
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+{% for item in cv.languages %}
+* **{{ item.language }}:** {{ item.fluency }}
+{% endfor %}
+{% endif %}
 
-Service and leadership
+{% if cv.publications %}
+Selected Publications
 ======
-* Currently signed in to 43 different slack teams
+{% for item in cv.publications %}
+* {% if item.website %}[{{ item.name }}]({{ item.website }}){% else %}{{ item.name }}{% endif %}. {{ item.publisher }}{% if item.releaseDate %}, {{ item.releaseDate | date: "%Y" }}{% endif %}.
+{% endfor %}
+{% endif %}
+
+{% if cv.portfolio %}
+Selected Projects
+======
+{% for item in cv.portfolio %}
+* **{% if item.url %}[{{ item.name }}]({{ item.url }}){% else %}{{ item.name }}{% endif %}:** {{ item.description }}
+{% endfor %}
+{% endif %}
+
+{% if cv.interests %}
+Interests
+======
+{% for item in cv.interests %}
+* **{{ item.name }}:** {{ item.keywords | join: ", " }}
+{% endfor %}
+{% endif %}
