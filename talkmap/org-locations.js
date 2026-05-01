@@ -1,22 +1,32 @@
 var addressPoints = [
   [
-    "Talk 2 on Relevant Topic in Your Field<br />London School of Testing; London, UK",
-    51.5074456,
-    -0.1277653
+    "Unrevealing the depths of compositionally complex alloys with grazing exit XANES<br />The 18th International XAFS Conference; Online",
+    43.5904719,
+    3.8595132
   ],
   [
-    "Talk 1 on Relevant Topic in Your Field<br />UC San Francisco, Department of Testing; San Francisco, CA, USA",
-    37.7879363,
-    -122.4075201
+    "High Speed for High Entropy Materials<br />Berlin Science Week; Berlin, Germany",
+    52.5173885,
+    13.3951309
   ],
   [
-    "Tutorial 1 on Relevant Topic in Your Field<br />UC-Berkeley Institute for Testing Science; Berkeley, CA, USA",
-    37.8708393,
-    -122.272863
+    "Enhancing the Efficiency and Accessibility of Grazing Exit X-ray Absorption Spectroscopy for Corrosion and Layered Materials Analysis<br />Gesellschaft Deutscher Chemiker (GDCh); Clausthal-Zellerfeld, Germany",
+    51.8070405,
+    10.3364483
   ],
   [
-    "Conference Proceeding talk 3 on Relevant Topic in Your Field<br />Testing Institute of America 2014 Annual Conference; Los Angeles, CA, USA",
-    34.0536909,
-    -118.242766
+    "Scanning-Free Grazing Exit XANES Analysis of Stratified Samples and the Optimization of the Data Collection Process<br />Denver X-Ray Conference 2022; Bethesda, MD, USA",
+    38.9812726,
+    -77.1233587
+  ],
+  [
+    "A Digital Twin Workflow for Optimizing X-ray Emission Spectroscopy (XES) Parameters in Material Science Opportunities and Challenges of FAIR Data at Photon and Neutron Facilities<br />Opportunities and Challenges of FAIR Data at Photon and Neutron Facilities; Bad Honnef, Germany",
+    50.6448582,
+    7.2272534
+  ],
+  [
+    "Algorithm-Assisted Multimodal Synchrotron Experiments: XRD-XES Integration and SpecTwin<br />Joint BAM-HZB Symposium on Multimodal Synchrotron Experiments for Next-Generation Materials Research; Berlin, Germany",
+    52.5173885,
+    13.3951309
   ]
 ];
