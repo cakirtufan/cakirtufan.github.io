@@ -1,152 +1,306 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Dr. C. Tufan Cakir",
+    "email": "cakircafertufan@gmail.com",
+    "phone": "+49 176 807 14 588",
+    "website": "https://cakirtufan.github.io",
+    "summary": "PhD-trained Applied AI Engineer and Data Scientist with 7+ years of experience in machine learning, statistical modelling, Python-based analytical systems, and workflow automation in complex technical environments. Strong background in optimisation under uncertainty, adaptive data acquisition, decision-support tools, and translating research ideas into robust, reusable, and deployable technical solutions. Experienced in working across interdisciplinary teams and building data-driven systems for real-world experimental and operational settings.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "city": "Berlin",
+      "countryCode": "DE",
+      "region": "Berlin"
     },
     "profiles": [
       {
         "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "username": "Cafer Tufan Cakir",
+        "url": "https://scholar.google.com/citations?user=Fw-rZvQAAAAJ&hl=en"
       },
       {
         "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "username": "0000-0002-5033-9577",
+        "url": "https://orcid.org/0000-0002-5033-9577"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "cakirtufan",
+        "url": "https://github.com/cakirtufan"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "cafer-tufan-cakir",
+        "url": "https://www.linkedin.com/in/cafer-tufan-%C3%A7ak%C4%B1r-26b2b731/"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "name": "Bundesanstalt für Materialforschung und -prüfung (BAM)",
+      "position": "Postdoctoral Researcher",
+      "url": "https://www.bam.de/",
+      "startDate": "2023-10-01",
+      "endDate": "",
+      "summary": "Designed and implemented machine-learning-based evaluation workflows, digital twins, Python-based analytical software, and decision-support tools for complex experimental and technical systems.",
+      "highlights": [
+        "Designed and implemented machine-learning-based evaluation workflows and digital twins for complex experimental systems.",
+        "Developed production-oriented Python software for real-time data acquisition, automated analysis, and decision support in complex technical workflows.",
+        "Applied Bayesian optimisation with Gaussian process models to explore a four-dimensional parameter space efficiently, replacing random or exhaustive search strategies.",
+        "Built robust and reusable analytical pipelines in collaboration with interdisciplinary teams in research and technical environments."
+      ]
+    },
+    {
+      "name": "Bundesanstalt für Materialforschung und -prüfung (BAM)",
+      "position": "Doctoral Research Scientist",
+      "url": "https://www.bam.de/",
+      "startDate": "2019-12-01",
+      "endDate": "2023-03-31",
+      "summary": "Developed Python-based data analysis pipelines and machine-learning workflows for spectroscopy and materials-related studies under real laboratory conditions.",
+      "highlights": [
+        "Developed Python-based data analysis pipelines with explicit uncertainty estimation for spectroscopy and materials-related studies.",
+        "Applied machine learning to predict experimental outcomes, detect anomalies in high-dimensional data, and improve measurement efficiency.",
+        "Worked with automated measurement systems and large-scale datasets under real laboratory conditions."
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "institution": "TU Vienna",
+      "area": "Technical Sciences",
+      "studyType": "Doctoral Program",
+      "startDate": "2022-04-01",
+      "endDate": "2025-01-31",
+      "gpa": "Excellent",
+      "courses": [
+        "Thesis: Optimisation of depth-resolved X-ray absorption spectroscopy in grazing emission mode for complex alloys"
+      ]
+    },
+    {
+      "institution": "TU Berlin",
+      "area": "Materials Science",
+      "studyType": "M.Sc.",
+      "startDate": "2016-04-01",
+      "endDate": "2019-03-31",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "institution": "Yıldız Technical University, Istanbul",
+      "area": "Metallurgy and Materials Engineering",
+      "studyType": "B.Sc.",
+      "startDate": "2005-09-01",
+      "endDate": "2012-09-30",
       "gpa": null,
       "courses": []
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
+  "skills": [
+    {
+      "name": "Programming",
+      "level": "",
+      "keywords": [
+        "Python",
+        "SQL",
+        "Git",
+        "Docker",
+        "Linux/Bash",
+        "HDF5",
+        "Pytest"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "level": "",
+      "keywords": [
+        "Regression",
+        "Classification",
+        "Clustering",
+        "Dimensionality reduction",
+        "Anomaly detection",
+        "Model evaluation"
+      ]
+    },
+    {
+      "name": "Statistical and Probabilistic Modelling",
+      "level": "",
+      "keywords": [
+        "Gaussian processes",
+        "Uncertainty-aware modelling",
+        "Adaptive sampling",
+        "Bayesian optimisation"
+      ]
+    },
+    {
+      "name": "AI Systems and Workflows",
+      "level": "",
+      "keywords": [
+        "Workflow automation",
+        "Decision-support systems",
+        "Deployable prototypes",
+        "Reproducible analysis pipelines",
+        "Digital twins",
+        "Real-time data acquisition"
+      ]
+    },
+    {
+      "name": "Scientific and Analytical Tools",
+      "level": "",
+      "keywords": [
+        "NumPy",
+        "Pandas",
+        "SciPy",
+        "Scikit-learn",
+        "Matplotlib",
+        "Seaborn",
+        "Streamlit"
+      ]
+    },
+    {
+      "name": "Deep Learning and Computer Vision",
+      "level": "",
+      "keywords": [
+        "PyTorch",
+        "TensorFlow",
+        "Keras",
+        "OpenCV",
+        "YOLO"
+      ]
+    },
+    {
+      "name": "Additional",
+      "level": "",
+      "keywords": [
+        "PySpark",
+        "Basic C/C++"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Turkish",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "German",
+      "fluency": "C1"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Applied AI Systems",
+      "keywords": [
+        "Machine learning for scientific data",
+        "Workflow automation",
+        "Decision-support tools",
+        "Deployable analytical systems"
+      ]
+    },
+    {
+      "name": "Scientific Computing",
+      "keywords": [
+        "X-ray spectroscopy",
+        "Materials data",
+        "Digital twins",
+        "Experimental optimisation"
+      ]
+    },
+    {
+      "name": "Data-Driven Technical Workflows",
+      "keywords": [
+        "Adaptive data acquisition",
+        "Bayesian optimisation",
+        "Computer vision",
+        "Real-time analytics"
+      ]
+    }
+  ],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Machine learning for efficient grazing-exit X-ray absorption near edge structure spectroscopy analysis: Bayesian optimization approach",
+      "publisher": "Machine Learning: Science and Technology",
+      "releaseDate": "2024-01-01",
+      "website": "https://doi.org/10.1088/2632-2153/ad4253",
+      "summary": "A machine-learning-based approach using Bayesian optimisation for efficient GE-XANES analysis and adaptive experimental design."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Exploring the Nb2O5 coating deposited on the Ti-6Al-4V alloy by a novel GE-XANES technique and nanoindentation load-depth",
+      "publisher": "Materials Letters",
+      "releaseDate": "2024-01-01",
+      "website": "https://doi.org/10.1016/j.matlet.2023.135584",
+      "summary": "Application of GE-XANES and nanoindentation methods to investigate Nb2O5 coatings on Ti-6Al-4V alloy."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "BAMline — A real-life sample materials research beamline",
+      "publisher": "The Journal of Chemical Physics",
+      "releaseDate": "2023-01-01",
+      "website": "https://doi.org/10.1063/5.0157194",
+      "summary": "Description of BAMline as a materials research beamline for real-life sample investigations."
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Exploring the Depths of Corrosion: A Novel GE-XANES Technique for Investigating Compositionally Complex Alloys",
+      "publisher": "Analytical Chemistry",
+      "releaseDate": "2023-01-01",
+      "website": "https://doi.org/10.1021/acs.analchem.3c00404",
+      "summary": "Development and application of a GE-XANES method for depth-resolved investigation of corrosion in compositionally complex alloys."
+    },
+    {
+      "name": "Time-, space- and energy-resolved in situ characterization of catalysts by X-ray absorption spectroscopy",
+      "publisher": "Chemical Communications",
+      "releaseDate": "2023-01-01",
+      "website": "https://doi.org/10.1039/D3CC03277A",
+      "summary": "In situ X-ray absorption spectroscopy study with time-, space-, and energy-resolved characterization of catalysts."
+    },
+    {
+      "name": "Dispersive X-ray absorption spectroscopy for time-resolved in situ monitoring of mechanochemical reactions",
+      "publisher": "The Journal of Chemical Physics",
+      "releaseDate": "2022-01-01",
+      "website": "https://doi.org/10.1063/5.0130673",
+      "summary": "Use of dispersive X-ray absorption spectroscopy for time-resolved in situ monitoring of mechanochemical reactions."
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
+  "presentations": [],
+  "teaching": [],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
+      "name": "SpecTwin: Digital Twin for Experimental Optimisation",
+      "category": "software",
+      "date": "",
+      "url": "https://github.com/cakirtufan/SpecTwin",
+      "description": "Python-based analytical software for automated spectrometer configuration, data processing, visualization, simulation workflow automation, digital twin based experimental planning, optimisation experiments, and decision-support logic."
+    },
+    {
+      "name": "Conversational AI for Scientific Workflow Control",
+      "category": "ai-systems",
       "date": "",
       "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "description": "Domain-specific AI assistant prototype that translates natural-language instructions into controlled workflow actions in a safety-aware experimental environment."
+    },
+    {
+      "name": "Bayesian Active Learning for Resource-Efficient Data Acquisition",
+      "category": "machine-learning",
+      "date": "",
+      "url": "",
+      "description": "Adaptive sampling workflow using Gaussian processes to reduce runtime from 20 hours to 25 minutes while balancing exploration and exploitation."
+    },
+    {
+      "name": "Real-Time Decision Support for Automated Measurement Systems",
+      "category": "decision-support",
+      "date": "",
+      "url": "",
+      "description": "Python workflows for beamline alignment and on-the-fly data acquisition, combining modelling, optimisation, and modular software design."
+    },
+    {
+      "name": "Modular Data Analysis Ecosystem",
+      "category": "software",
+      "date": "",
+      "url": "",
+      "description": "Reusable Python toolkit for preprocessing, feature extraction, visualization, and evaluation to improve scalability and reproducibility across scientific data analysis tasks."
     }
   ]
 }
