@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Cafer Tufan Cakir"
+title                    : "Dr. C. Tufan Cakir"
 title_separator          : "-"
 name                     : &name "Cafer Tufan Cakir"
 description              : &description "Applied AI Engineer · Machine Learning · Scientific Computing · Decision Systems"
@@ -23,7 +23,7 @@ repository               : "cakirtufan/cakirtufan.github.io"
 author:
   # Biographic information
   avatar           : "profile.jpg"
-  name             : "Dr. Cafer Tufan Cakir"
+  name             : "Dr. C. Tufan Cakir"
   pronouns         :
   bio              : "Ph.D. in Technical Science, Applied AI Engineer and Data Scientist"
   location         : "Berlin, Germany"
