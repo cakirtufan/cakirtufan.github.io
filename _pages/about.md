@@ -1,49 +1,71 @@
 ---
+
 title: "About"
 permalink: /
 author_profile: true
----
+--------------------
 
-I am a PhD-trained Applied AI Engineer and Data Scientist based in Berlin.
+I'm a **Data Scientist and Python developer** based in Berlin, working across machine learning, data analysis, scientific computing, and software development.
 
-My work is at the interface of **machine learning, scientific computing, optimisation, and analytical software development**. I focus on building Python-based tools that turn complex experimental and industrial datasets into useful models, visualizations, and decision-support workflows.
+I like problems where the difficult part is not simply training a model, but figuring out **what is actually in the data, what can reasonably be learned from it, and whether the result will still work outside the dataset it was developed on**.
 
-I have a background in materials science and X-ray spectroscopy, and I have worked for several years in research and technical environments where data analysis, automation, and experimental systems are closely connected. This has shaped the way I work: I am interested not only in developing models, but also in making them usable in real workflows.
+My background is in experimental science, so I tend to approach data with a mix of curiosity and skepticism. Before reaching for a more complex model, I want to understand the structure of the problem, the assumptions behind the data, and what the validation results are really telling me.
 
-## What I Work On
+These days, a lot of my work involves taking that process beyond notebooks: building reproducible pipelines, analytical tools, databases, dashboards, and small applications that connect data analysis with real workflows.
 
-My recent work includes machine-learning-based evaluation workflows, digital twins for experimental systems, Bayesian optimisation, adaptive data acquisition, and real-time analytical tools for complex technical processes.
+## What I'm Working On
 
-I mainly work with:
+I'm currently working as a **Data Scientist at IAP in Berlin-Adlershof**.
 
-- Machine learning and statistical modelling
-- Bayesian optimisation and Gaussian process models
-- Scientific Python workflows
-- Data processing and visualization
-- Multivariate analysis
-- Computer vision and image-based workflows
-- Real-time data acquisition and decision support
-- Reusable software tools for scientific and industrial data
+My day-to-day work includes:
 
-## Software and Data Workflows
+* Exploring and modelling complex datasets
+* Regression and classification
+* Feature engineering and multivariate analysis
+* Model validation, robustness, and generalisation
+* Data-processing and automation pipelines
+* Structured data and database workflows
+* Interactive tools and dashboards with Python
+* Connecting data acquisition, analysis, modelling, and visualisation
 
-A central part of my work is developing practical software around data-heavy workflows. I enjoy building tools that go beyond notebooks and can support real users in research, laboratory, or industrial settings.
+The data I currently work with mainly comes from scientific and technical measurements. But the questions behind it are much more general: how to work with noisy or limited data, how to handle correlated variables and domain shifts, how to validate models properly, and how to turn analysis into something useful.
 
-One example is **SpecTwin**, a Python-based analytical software project that combines data processing, visualization, simulation workflow automation, digital twin based experimental planning, and optimisation experiments.
+## How I Work
 
-## Research Background
+I'm not particularly interested in throwing every available algorithm at a dataset and keeping whichever one produces the highest score.
 
-My academic background is in materials science and depth-resolved X-ray spectroscopy. During my doctoral work, I focused on the optimisation of grazing-emission X-ray absorption spectroscopy for complex alloys.
+I'd rather understand why a model works, what information it is using, where it starts to fail, and whether the validation setup actually represents the problem we care about.
 
-This research background helps me connect physical understanding with data-driven methods, especially in applications where measurement time, uncertainty, experimental constraints, and interpretability matter.
+For me, good data science sits somewhere between **statistics, software, domain knowledge, and careful reasoning**.
 
-## Technical Interests
+## Background
 
-I am especially interested in applied AI systems that are connected to real-world technical workflows. This includes machine learning for scientific data, adaptive experimental design, decision-support systems, workflow automation, and analytical software that can make complex data more usable.
+Before moving more deeply into data science and machine learning, I worked in experimental research and materials science.
+
+That background still influences how I approach technical problems, especially when data comes from a real physical process and uncertainty, measurement conditions, or experimental constraints matter.
+
+I see that experience as useful context rather than a domain boundary: the tools and ways of thinking I use are applicable far beyond scientific data.
+
+## Interests
+
+Some areas I currently enjoy working with:
+
+* Machine learning and statistical modelling
+* Exploratory data analysis
+* Model validation and generalisation
+* Multivariate analysis
+* Optimisation and adaptive sampling
+* Computer vision
+* Data pipelines and automation
+* Interactive analytical software
+* Databases and structured data workflows
+* Decision-support tools
+* Python applications for data-heavy problems
 
 ## Links
 
-- [Google Scholar](https://scholar.google.com/citations?user=Fw-rZvQAAAAJ&hl=en)
-- [ORCID](https://orcid.org/0000-0002-5033-9577)
-- [GitHub](https://github.com/cakirtufan)
-- [LinkedIn](https://www.linkedin.com/in/cafer-tufan-%C3%A7ak%C4%B1r-26b2b731/)
+* [Google Scholar](https://scholar.google.com/citations?user=Fw-rZvQAAAAJ&hl=en)
+* [ORCID](https://orcid.org/0000-0002-5033-9577)
+* [GitHub](https://github.com/cakirtufan)
+* [LinkedIn](https://www.linkedin.com/in/cafer-tufan-%C3%A7ak%C4%B1r-26b2b731/)
+
