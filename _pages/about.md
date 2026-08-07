@@ -1,9 +1,8 @@
 ---
-
 title: "About"
 permalink: /
 author_profile: true
---------------------
+---
 
 I'm a **Data Scientist and Python developer** based in Berlin, working across machine learning, data analysis, scientific computing, and software development.
 
