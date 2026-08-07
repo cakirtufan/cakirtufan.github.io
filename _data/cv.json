@@ -4,7 +4,7 @@
     "email": "cakircafertufan@gmail.com",
     "phone": "+49 176 807 14 588",
     "website": "https://cakirtufan.github.io",
-    "summary": "PhD-trained Applied AI Engineer and Data Scientist with 7+ years of experience in machine learning, statistical modelling, Python-based analytical systems, and workflow automation in complex technical environments. Strong background in optimisation under uncertainty, adaptive data acquisition, decision-support tools, and translating research ideas into robust, reusable, and deployable technical solutions. Experienced in working across interdisciplinary teams and building data-driven systems for real-world experimental and operational settings.",
+    "summary": "Data Scientist with 7+ years of experience working with complex data, machine learning, statistical modelling, and Python-based analytical software. I combine a background in experimental science with practical experience in building data pipelines, predictive models, automated analysis workflows, databases, and interactive tools. My work focuses on understanding what can reliably be learned from data, validating models under realistic conditions, and turning analysis into robust software that can be used in real workflows.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -37,17 +37,32 @@
   },
   "work": [
     {
+      "name": "IAP, Berlin-Adlershof",
+      "position": "Data Scientist",
+      "url": "",
+      "startDate": "2026-07-01",
+      "endDate": "",
+      "summary": "Developing machine-learning and data-analysis tools for complex experimental and technical datasets, with a focus on robust modelling, structured data workflows, and analytical software.",
+      "highlights": [
+        "Develop machine-learning models for regression and classification problems using complex, multivariate datasets.",
+        "Investigate model robustness, feature behaviour, and generalisation across different groups and data domains.",
+        "Build reproducible data-processing, feature-engineering, and analysis pipelines in Python.",
+        "Develop SQLite-based data structures and interactive analytical applications with Streamlit.",
+        "Connect measurement data, automated processing, modelling, visualisation, and laboratory workflows into reusable software tools."
+      ]
+    },
+    {
       "name": "Bundesanstalt für Materialforschung und -prüfung (BAM)",
       "position": "Postdoctoral Researcher",
       "url": "https://www.bam.de/",
       "startDate": "2023-10-01",
-      "endDate": "",
-      "summary": "Designed and implemented machine-learning-based evaluation workflows, digital twins, Python-based analytical software, and decision-support tools for complex experimental and technical systems.",
+      "endDate": "2026-06-30",
+      "summary": "Worked on machine learning, optimisation, automation, and analytical software for experimental and technical systems.",
       "highlights": [
-        "Designed and implemented machine-learning-based evaluation workflows and digital twins for complex experimental systems.",
-        "Developed production-oriented Python software for real-time data acquisition, automated analysis, and decision support in complex technical workflows.",
-        "Applied Bayesian optimisation with Gaussian process models to explore a four-dimensional parameter space efficiently, replacing random or exhaustive search strategies.",
-        "Built robust and reusable analytical pipelines in collaboration with interdisciplinary teams in research and technical environments."
+        "Developed machine-learning workflows for complex experimental datasets and technical processes.",
+        "Built Python software for automated data acquisition, analysis, visualisation, and decision support.",
+        "Applied Gaussian processes and Bayesian optimisation to improve experimental search and data-acquisition strategies.",
+        "Developed reusable analytical tools and worked closely with interdisciplinary research and engineering teams."
       ]
     },
     {
@@ -56,11 +71,11 @@
       "url": "https://www.bam.de/",
       "startDate": "2019-12-01",
       "endDate": "2023-03-31",
-      "summary": "Developed Python-based data analysis pipelines and machine-learning workflows for spectroscopy and materials-related studies under real laboratory conditions.",
+      "summary": "Combined experimental research with Python-based data analysis, statistical modelling, and automated measurement workflows.",
       "highlights": [
-        "Developed Python-based data analysis pipelines with explicit uncertainty estimation for spectroscopy and materials-related studies.",
-        "Applied machine learning to predict experimental outcomes, detect anomalies in high-dimensional data, and improve measurement efficiency.",
-        "Worked with automated measurement systems and large-scale datasets under real laboratory conditions."
+        "Developed Python pipelines for processing and analysing complex experimental datasets.",
+        "Applied statistical and machine-learning methods to prediction, anomaly detection, and measurement optimisation.",
+        "Worked with uncertainty, high-dimensional data, automated measurement systems, and real laboratory constraints."
       ]
     }
   ],
@@ -97,82 +112,65 @@
   ],
   "skills": [
     {
-      "name": "Programming",
+      "name": "Programming & Data",
       "level": "",
       "keywords": [
         "Python",
         "SQL",
+        "Pandas",
+        "NumPy",
+        "SciPy",
         "Git",
         "Docker",
         "Linux/Bash",
-        "HDF5",
-        "Pytest"
+        "HDF5"
       ]
     },
     {
       "name": "Machine Learning",
       "level": "",
       "keywords": [
+        "Scikit-learn",
         "Regression",
         "Classification",
         "Clustering",
+        "Feature engineering",
         "Dimensionality reduction",
         "Anomaly detection",
-        "Model evaluation"
+        "Model validation"
       ]
     },
     {
-      "name": "Statistical and Probabilistic Modelling",
+      "name": "Statistical Modelling & Optimisation",
       "level": "",
       "keywords": [
+        "Multivariate analysis",
         "Gaussian processes",
-        "Uncertainty-aware modelling",
+        "Bayesian optimisation",
         "Adaptive sampling",
-        "Bayesian optimisation"
+        "Uncertainty-aware modelling"
       ]
     },
     {
-      "name": "AI Systems and Workflows",
+      "name": "Software & Data Applications",
       "level": "",
       "keywords": [
+        "Streamlit",
+        "SQLite",
+        "Data pipelines",
         "Workflow automation",
-        "Decision-support systems",
-        "Deployable prototypes",
-        "Reproducible analysis pipelines",
-        "Digital twins",
-        "Real-time data acquisition"
+        "Interactive dashboards",
+        "Reproducible analysis"
       ]
     },
     {
-      "name": "Scientific and Analytical Tools",
-      "level": "",
-      "keywords": [
-        "NumPy",
-        "Pandas",
-        "SciPy",
-        "Scikit-learn",
-        "Matplotlib",
-        "Seaborn",
-        "Streamlit"
-      ]
-    },
-    {
-      "name": "Deep Learning and Computer Vision",
+      "name": "Deep Learning & Computer Vision",
       "level": "",
       "keywords": [
         "PyTorch",
-        "TensorFlow",
-        "Keras",
+        "TensorFlow/Keras",
         "OpenCV",
         "YOLO"
-      ]
-    },
-    {
-      "name": "Additional",
-      "level": "",
-      "keywords": [
-        "PySpark",
-        "Basic C/C++"
       ]
     }
   ],
@@ -192,30 +190,32 @@
   ],
   "interests": [
     {
-      "name": "Applied AI Systems",
+      "name": "Data Science",
       "keywords": [
-        "Machine learning for scientific data",
+        "Machine learning",
+        "Model validation",
+        "Generalisation",
+        "Multivariate data",
+        "Statistical modelling"
+      ]
+    },
+    {
+      "name": "Data & Software",
+      "keywords": [
+        "Analytical software",
+        "Data pipelines",
         "Workflow automation",
-        "Decision-support tools",
-        "Deployable analytical systems"
+        "Interactive tools",
+        "Decision-support systems"
       ]
     },
     {
-      "name": "Scientific Computing",
+      "name": "Optimisation",
       "keywords": [
-        "X-ray spectroscopy",
-        "Materials data",
-        "Digital twins",
-        "Experimental optimisation"
-      ]
-    },
-    {
-      "name": "Data-Driven Technical Workflows",
-      "keywords": [
-        "Adaptive data acquisition",
         "Bayesian optimisation",
-        "Computer vision",
-        "Real-time analytics"
+        "Adaptive sampling",
+        "Gaussian processes",
+        "Experimental design"
       ]
     }
   ],
@@ -266,41 +266,5 @@
   ],
   "presentations": [],
   "teaching": [],
-  "portfolio": [
-    {
-      "name": "SpecTwin: Digital Twin for Experimental Optimisation",
-      "category": "software",
-      "date": "",
-      "url": "https://github.com/cakirtufan/SpecTwin",
-      "description": "Python-based analytical software for automated spectrometer configuration, data processing, visualization, simulation workflow automation, digital twin based experimental planning, optimisation experiments, and decision-support logic."
-    },
-    {
-      "name": "Conversational AI for Scientific Workflow Control",
-      "category": "ai-systems",
-      "date": "",
-      "url": "",
-      "description": "Domain-specific AI assistant prototype that translates natural-language instructions into controlled workflow actions in a safety-aware experimental environment."
-    },
-    {
-      "name": "Bayesian Active Learning for Resource-Efficient Data Acquisition",
-      "category": "machine-learning",
-      "date": "",
-      "url": "",
-      "description": "Adaptive sampling workflow using Gaussian processes to reduce runtime from 20 hours to 25 minutes while balancing exploration and exploitation."
-    },
-    {
-      "name": "Real-Time Decision Support for Automated Measurement Systems",
-      "category": "decision-support",
-      "date": "",
-      "url": "",
-      "description": "Python workflows for beamline alignment and on-the-fly data acquisition, combining modelling, optimisation, and modular software design."
-    },
-    {
-      "name": "Modular Data Analysis Ecosystem",
-      "category": "software",
-      "date": "",
-      "url": "",
-      "description": "Reusable Python toolkit for preprocessing, feature extraction, visualization, and evaluation to improve scalability and reproducibility across scientific data analysis tasks."
-    }
-  ]
+  "portfolio": []
 }
