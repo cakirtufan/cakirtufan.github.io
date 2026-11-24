@@ -29,6 +29,46 @@ My day-to-day work includes:
 
 The data I currently work with mainly comes from scientific and technical measurements. But the questions behind it are much more general: how to work with noisy or limited data, how to handle correlated variables and domain shifts, how to validate models properly, and how to turn analysis into something useful.
 
+
+## Featured Project
+
+<section id="taxi-project" aria-labelledby="taxi-project-title">
+  <h3 id="taxi-project-title">NYC Taxi Demand Forecasting & Optimization</h3>
+  <p><strong data-field="status">In progress</strong></p>
+  <p data-field="summary">An applied forecasting project exploring how recorded taxi pickups can support fleet planning. I use DuckDB and pandas to validate trip records, combine daily counts with weather data, and compare simple forecasts using chronological evaluation.</p>
+  <p data-field="finding">In an April experiment, daily updates reduced forecast bias but increased mean absolute error by 15.2% compared with a fixed monthly forecast. More frequent updates did not automatically improve accuracy.</p>
+  <p><strong>Built so far:</strong> <span data-field="completed">Daily data validation, weather integration, weekday-mean baselines, daily walk-forward evaluation, and five metric unit tests.</span></p>
+  <p><strong>Next:</strong> <span data-field="next">Evaluate longer rolling windows and reserve a later unseen period for final testing. Fleet assignment optimization is planned.</span></p>
+  <p data-field="technologies">Python · SQL · DuckDB · pandas · pytest</p>
+  <p><a href="https://github.com/cakirtufan/nyc-taxi-forecasting-and-optimization">Explore the project on GitHub</a></p>
+  <p><small>Project update: <span data-field="updated">2026-11-24</span></small></p>
+</section>
+
+<script>
+(function () {
+  var card = document.getElementById("taxi-project");
+  fetch("https://raw.githubusercontent.com/cakirtufan/nyc-taxi-forecasting-and-optimization/main/portfolio-summary.json", {cache: "no-cache"})
+    .then(function (response) {
+      if (!response.ok) throw new Error("Summary unavailable");
+      return response.json();
+    })
+    .then(function (data) {
+      ["status", "summary", "finding", "completed", "next", "updated"].forEach(function (key) {
+        if (typeof data[key] === "string" && data[key].trim()) {
+          card.querySelector('[data-field="' + key + '"]').textContent = data[key];
+        }
+      });
+      if (typeof data.title === "string" && data.title.trim()) {
+        document.getElementById("taxi-project-title").textContent = data.title;
+      }
+      if (Array.isArray(data.technologies) && data.technologies.every(function (item) { return typeof item === "string"; })) {
+        card.querySelector('[data-field="technologies"]').textContent = data.technologies.join(" · ");
+      }
+    })
+    .catch(function () { /* Keep the embedded project description available. */ });
+}());
+</script>
+
 ## How I Work
 
 I'm not particularly interested in throwing every available algorithm at a dataset and keeping whichever one produces the highest score.
@@ -67,4 +107,3 @@ Some areas I currently enjoy working with:
 * [ORCID](https://orcid.org/0000-0002-5033-9577)
 * [GitHub](https://github.com/cakirtufan)
 * [LinkedIn](https://www.linkedin.com/in/cafer-tufan-%C3%A7ak%C4%B1r-26b2b731/)
-
